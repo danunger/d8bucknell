@@ -1,0 +1,18 @@
+name: PhotoShelter API
+description: 'Consumes the PhotoShelter API'
+package: Media
+php: 7.0
+
+type: module
+# core: 8.x
+
+dependencies:
+  - drupal:media
+  - remote_stream_wrapper:remote_stream_wrapper
+  - queue_ui:queue_ui
+
+# Information added by Drupal.org packaging script on 2018-08-31
+version: '8.x-3.0-alpha7'
+core: '8.x'
+project: 'photoshelter'
+datestamp: 1535726432
